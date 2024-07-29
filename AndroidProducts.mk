@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Mi439.mk \
+    $(LOCAL_DIR)/droidx_Mi439.mk \
     $(LOCAL_DIR)/droidx_Mi439_4_19.mk
 
 COMMON_LUNCH_CHOICES := \
