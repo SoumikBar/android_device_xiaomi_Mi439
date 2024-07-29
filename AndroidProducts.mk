@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_Mi439.mk \
-    $(LOCAL_DIR)/blaze_Mi439_4_19.mk
+    $(LOCAL_DIR)/afterlife_Mi439.mk \
+    $(LOCAL_DIR)/afterlife_Mi439_4_19.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_Mi439-user \
-    blaze_Mi439-userdebug \
-    blaze_Mi439-eng \
-    blaze_Mi439_4_19-user \
-    blaze_Mi439_4_19-userdebug \
-    blaze_Mi439_4_19-eng
+    afterlife_Mi439-user \
+    afterlife_Mi439-userdebug \
+    afterlife_Mi439-eng \
+    afterlife_Mi439_4_19-user \
+    afterlife_Mi439_4_19-userdebug \
+    afterlife_Mi439_4_19-eng
