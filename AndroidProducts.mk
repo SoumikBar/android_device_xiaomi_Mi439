@@ -6,12 +6,12 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_Mi439.mk \
-    $(LOCAL_DIR)/lineage_Mi439_4_19.mk
+    $(LOCAL_DIR)/droidx_Mi439_4_19.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_Mi439-user \
-    lineage_Mi439-userdebug \
-    lineage_Mi439-eng \
-    lineage_Mi439_4_19-user \
-    lineage_Mi439_4_19-userdebug \
-    lineage_Mi439_4_19-eng
+    droidx_Mi439-user \
+    droidx_Mi439-userdebug \
+    droidx_Mi439-eng \
+    droidx_Mi439_4_19-user \
+    droidx_Mi439_4_19-userdebug \
+    droidx_Mi439_4_19-eng
