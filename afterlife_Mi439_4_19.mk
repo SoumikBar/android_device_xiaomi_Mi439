@@ -34,13 +34,6 @@ PRODUCT_MODEL := SDM439
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
-# Signing
-# -include vendor/extra/product.mk
-
-# Project Blaze specific
-BLAZE_BUILD_TYPE := UNOFFICIAL
-BLAZE_MAINTAINER := FARHAN•3X
-WITH_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
