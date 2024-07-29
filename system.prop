@@ -2,3 +2,5 @@
 hw.fm.internal_antenna=1
 # DroidX-UI Maintainer
 ro.droidx.maintainer=<FARHAN•xd>
+ro.droidx.chipset=SDM439
+ro.droidx.display_resolution=6.67" IPS LCD 1080x2400
