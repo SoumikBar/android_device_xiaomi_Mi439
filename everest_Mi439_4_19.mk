@@ -47,6 +47,7 @@ TARGET_SUPPORTS_BLUR := true
 TARGET_HAS_UDFPS := true
 
 EXTRA_UDFPS_ANIMATIONS := true
+
 # Build Vanilla
 
 WITH_GAPPS := false
