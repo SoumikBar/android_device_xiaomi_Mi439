@@ -44,14 +44,18 @@ TARGET_BUILD_PACKAGE := 1
 # 3 - pixel (valid only on gapps builds)
 TARGET_LAUNCHER := 2
 
+# GAPPS (valid only for GAPPS builds)
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 # TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Debugging
 TARGET_INCLUDE_MATLOG := false
 
 # Maintainer
-ALPHA_BUILD_TYPE := Official
-ALPHA_MAINTAINER := FARHAN•xd
+ALPHA_MAINTAINER := FARHAN|jisan
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439_4_19
