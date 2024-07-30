@@ -34,19 +34,25 @@ PRODUCT_MODEL := SDM439
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
-# Signing
-# -include vendor/extra/product.mk
+# Maintainer name for Everest
 
-# Extra Stuffs
-TARGET_HAS_UDFPS := true
+EVEREST_MAINTAINER := "AFK•FRN?"
+
+# Adding Blur support
+
 TARGET_SUPPORTS_BLUR := true
+
+# For UDFPS devices
+
+TARGET_HAS_UDFPS := true
+
+EXTRA_UDFPS_ANIMATIONS := true
+# Build Vanilla
+
+WITH_GAPPS := false
+
+# Build Launcher3 in GAPPS (default is Pixel Launcher)
 TARGET_INCLUDE_PIXEL_LAUNCHER := false
-
-
-
-# Maintainer
-EVEREST_MAINTAINER := "SDM丨FARHAN"
-
 
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
