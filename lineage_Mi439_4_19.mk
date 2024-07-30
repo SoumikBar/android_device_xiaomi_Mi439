@@ -57,6 +57,9 @@ TARGET_INCLUDE_MATLOG := false
 # Maintainer
 ALPHA_MAINTAINER := FARHAN|jisan
 
+# sign-builds
+-include vendor/lineage-priv/keys/keys.mk
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439_4_19
 PRODUCT_NAME := lineage_Mi439_4_19
