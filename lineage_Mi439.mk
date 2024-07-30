@@ -25,6 +25,33 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
+
+# Maintainer
+ALPHA_BUILD_TYPE := Official
+ALPHA_MAINTAINER := FARHAN•xd
+
+# Device config
+TARGET_ENABLE_BLUR := true
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Build package
+TARGET_BUILD_PACKAGE := 3
+WITH_GMS := true
+
+# Pixel Launcher
+TARGET_LAUNCHER := 3
+
+# GAPPS
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
+# Debugging
+TARGET_INCLUDE_MATLOG := false
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439
 PRODUCT_NAME := lineage_Mi439
