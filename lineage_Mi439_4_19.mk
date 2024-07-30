@@ -30,7 +30,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Sakura Official
-SAKURA_MAINTAINER := FARHAN•S1
+SAKURA_MAINTAINER := FARHAN•S
+
+# sign-builds
+-include vendor/lineage-priv/keys/keys.mk
  
 
 # Device identifier. This must come after all inclusions
