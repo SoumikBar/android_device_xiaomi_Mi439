@@ -31,7 +31,6 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 # Sakura Official
 SAKURA_MAINTAINER := FARHAN•S1
-SAKURA_BUILD_TYPE := vanilla
  
 
 # Device identifier. This must come after all inclusions
