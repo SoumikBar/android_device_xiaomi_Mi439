@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2024 The Evolution-X Project
+# Copyright (C) 2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common EvolutionX stuff.
+# Inherit some common LineageOS stuff. 
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Kernel
