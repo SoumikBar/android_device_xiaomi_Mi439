@@ -25,6 +25,25 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
+# Maintainer
+AFTERLIFE_MAINTAINER := FARHAN•beforeLife 
+
+# FaceUnlock
+
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Blur
+
+TARGET_SUPPORTS_BLUR := true
+
+# Pixel charging
+
+USE_PIXEL_CHARGING := true
+
+# TouchGestures
+
+TARGET_SUPPORTS_TOUCHGESTURES := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439_4_19
 PRODUCT_NAME := afterlife_Mi439_4_19
