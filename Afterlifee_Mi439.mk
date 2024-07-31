@@ -9,8 +9,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Afterlife stuff.
+$(call inherit-product, vendor/Afterlife/config/common_full_phone.mk)
 
 # Kernel
 TARGET_KERNEL_VERSION := 4.9
@@ -24,6 +24,34 @@ PRODUCT_PACKAGES += \
     xiaomi_olive_overlay_lineage
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+
+flags:
+
+If you are interested and want to make an afterlife project for your device, please adjust the flags with this
+
+
+# CoreGapps
+
+AFTERLIFE_GAPPS := true
+AFTERLIFE_CORE := true
+
+See #coregapps for more information
+
+# Maintainer
+AFTERLIFE_MAINTAINER := FARHAN•beforeLife 
+
+
+# FaceUnlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Blur
+TARGET_SUPPORTS_BLUR := true
+
+# Pixel charging
+USE_PIXEL_CHARGING := true
+
+# TouchGestures
+TARGET_SUPPORTS_TOUCHGESTURES := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439
