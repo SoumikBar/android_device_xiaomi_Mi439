@@ -25,11 +25,6 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
-flags:
-
-If you are interested and want to make an afterlife project for your device, please adjust the flags with this
-
-
 # CoreGapps
 
 AFTERLIFE_GAPPS := true
