@@ -26,22 +26,18 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Maintainer
-AFTERLIFE_MAINTAINER := FARHAN•beforeLife 
+AFTERLIFE_MAINTAINER := FARHAN•life
 
 # FaceUnlock
-
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Blur
-
 TARGET_SUPPORTS_BLUR := true
 
 # Pixel charging
-
 USE_PIXEL_CHARGING := true
 
 # TouchGestures
-
 TARGET_SUPPORTS_TOUCHGESTURES := true
 
 # Device identifier. This must come after all inclusions
