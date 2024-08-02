@@ -25,29 +25,6 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
-# CoreGapps
-
-AFTERLIFE_GAPPS := true
-AFTERLIFE_CORE := true
-
-See #coregapps for more information
-
-# Maintainer
-AFTERLIFE_MAINTAINER := FARHAN•beforeLife 
-
-
-# FaceUnlock
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# Blur
-TARGET_SUPPORTS_BLUR := true
-
-# Pixel charging
-USE_PIXEL_CHARGING := true
-
-# TouchGestures
-TARGET_SUPPORTS_TOUCHGESTURES := true
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439
 PRODUCT_NAME := lineage_Mi439
@@ -56,13 +33,6 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SDM439
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
-# Signing
-# -include vendor/extra/product.mk
-
-# Project Blaze specific
-BLAZE_MAINTAINER := FARHAN
-ROM_FOLDER := blaze
-WITH_GAPPS := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
