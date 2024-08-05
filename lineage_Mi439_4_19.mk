@@ -25,15 +25,17 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
+#RisingOS
+TARGET_ENABLE_BLUR := true
+RISING_MAINTAINER := farhan(AFK?)
+TARGET_HAS_UDFPS := true
+TARGET_ENABLE_BLUR := true
 
-# Boot animation
-TARGET_BOOT_ANIMATION_RES := 720
-
-# Sakura Official
-SAKURA_MAINTAINER := FARHAN•S
-
-# sign-builds
--include vendor/lineage-priv/keys/keys.mk
+#TARGET_CORE_GMS := true
+PRODUCT_NO_CAMERA := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_SHIPS_MATLOG := false
  
 
 # Device identifier. This must come after all inclusions
@@ -44,6 +46,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SDM439
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
+RISING_MAINTAINER="farhan(AFK?)" \
+    RISING_CHIPSET="SDM439"
+
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
