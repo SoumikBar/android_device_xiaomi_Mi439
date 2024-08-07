@@ -9,8 +9,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common risingOS stuff.
+TARGET_DISABLE_EPPE := true
+$(call inherit-product, vendor/rising/config/rising.mk)
 
 # Kernel
 TARGET_KERNEL_VERSION := 4.9
@@ -25,12 +26,32 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
-# Boot animation
-TARGET_BOOT_ANIMATION_RES := 720
+# Rising Variables
+RISING_CHIPSET="SDM439"
+RISING_MAINTAINER="GamerBoy1234"
+RISING_DEVICE := Mi439
 
-# Sakura Official
-SAKURA_MAINTAINER := FARHAN•S1
-SAKURA_BUILD_TYPE := gapps
+# Build package
+WITH_GMS := true
+
+# Launcher
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
+# FaceUnlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Blur
+TARGET_SUPPORTS_BLUR := true
+
+# Pixel charging
+USE_PIXEL_CHARGING := true
+
+# TouchGestures
+TARGET_SUPPORTS_TOUCHGESTURES := true
+
+# Debugging
+TARGET_INCLUDE_MATLOG := false
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439
