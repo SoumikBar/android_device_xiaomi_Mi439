@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Kernel
 ifeq ($(TARGET_KERNEL_VERSION),4.9)
     ifneq ($(wildcard kernel/xiaomi/sdm439/Makefile),)
