@@ -11,7 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common risingOS stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/rising/config/rising.mk)
+#$(call inherit-product, vendor/rising/config/rising.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Kernel
 TARGET_KERNEL_VERSION := 4.19
