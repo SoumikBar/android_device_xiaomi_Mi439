@@ -36,6 +36,9 @@ WITH_GMS := true
 TARGET_CORE_GMS := true
 TARGET_CORE_GMS_EXTRAS := false
 
+# Signing
+-include vendor/lineage-priv/keys/keys.mk
+
 # Launcher
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
 
