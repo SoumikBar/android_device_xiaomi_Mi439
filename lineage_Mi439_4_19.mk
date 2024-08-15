@@ -35,7 +35,8 @@ RISING_MAINTAINER="GamerBoy1234"
 RISING_DEVICE := Mi439
 
 # Build package
-WITH_GMS := true
+#WITH_GMS := true
+RISING_PACKAGE_TYPE := "VANILLA_AOSP"
 
 # Signing
 -include vendor/lineage-priv/keys/keys.mk
@@ -70,8 +71,8 @@ TARGET_VENDOR := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Mi439" \
-    RISING_MAINTAINER="GamerBoy1234" \
-    RISING_CHIPSET="SDM439"
+    RISING_CHIPSET="SDM439" \
+    RISING_MAINTAINER="GamerBoy1234"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
