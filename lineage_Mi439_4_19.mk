@@ -34,8 +34,6 @@ RISING_DEVICE := Mi439
 
 # Build package
 WITH_GMS := true
-TARGET_CORE_GMS := true
-TARGET_CORE_GMS_EXTRAS := false
 
 # Signing
 -include vendor/lineage-priv/keys/keys.mk
@@ -50,7 +48,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_BLUR := true
 
 # Pixel charging
-USE_PIXEL_CHARGING := true
+#USE_PIXEL_CHARGING := true
 
 # TouchGestures
 TARGET_SUPPORTS_TOUCHGESTURES := true
