@@ -14,6 +14,8 @@ TARGET_DISABLE_EPPE := true
 #$(call inherit-product, vendor/rising/config/rising.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+ROM_FOLDER := lineage
+
 # Kernel
 TARGET_KERNEL_VERSION := 4.19
 
