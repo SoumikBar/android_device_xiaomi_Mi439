@@ -36,7 +36,6 @@ RISING_DEVICE := Mi439
 
 # Build package
 #WITH_GMS := true
-RISING_PACKAGE_TYPE := "VANILLA_AOSP"
 
 # Signing
 -include vendor/lineage-priv/keys/keys.mk
