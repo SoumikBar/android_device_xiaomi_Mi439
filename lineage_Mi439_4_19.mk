@@ -37,9 +37,6 @@ RISING_DEVICE := Mi439
 # Build package
 #WITH_GMS := true
 
-# Signing
--include vendor/lineage-priv/keys/keys.mk
-
 # Launcher
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
