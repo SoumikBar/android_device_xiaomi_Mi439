@@ -49,6 +49,9 @@ TARGET_SUPPORTS_BLUR := true
 # Pixel features
 TARGET_ENABLE_PIXEL_FEATURES := true
 
+# Use Google telephony framework
+TARGET_USE_GOOGLE_TELEPHONY := true
+
 # TouchGestures
 TARGET_SUPPORTS_TOUCHGESTURES := true
 
