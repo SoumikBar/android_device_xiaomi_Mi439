@@ -46,8 +46,8 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Blur
 TARGET_SUPPORTS_BLUR := true
 
-# Pixel charging
-USE_PIXEL_CHARGING := true
+# Pixel features
+TARGET_ENABLE_PIXEL_FEATURES := true
 
 # TouchGestures
 TARGET_SUPPORTS_TOUCHGESTURES := true
