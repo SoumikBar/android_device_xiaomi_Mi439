@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-ROM_FOLDER := SigmaDroid
+ROM_FOLDER := lineage
 
 # Kernel
 TARGET_KERNEL_VERSION := 4.19
