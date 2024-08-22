@@ -31,7 +31,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 # Sigma Variables
 SIGMA_CHIPSET="SDM439"
 SIGMA_MAINTAINER="GamerBoy1234"
-SIGMA_DEVICE := Mi439
+SIGMA_DEVICE := "Mi439"
 
 # Build package
 WITH_GMS := true
