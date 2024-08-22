@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common risingOS & Lineage OS stuff.
+# Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
@@ -28,13 +28,13 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
-# Rising Variables
-RISING_CHIPSET="SDM439"
-RISING_MAINTAINER="GamerBoy1234"
-RISING_DEVICE := Mi439
+# Sigma Variables
+SIGMA_CHIPSET="SDM439"
+SIGMA_MAINTAINER="GamerBoy1234"
+SIGMA_DEVICE := Mi439
 
 # Build package
-#WITH_GMS := true
+WITH_GMS := true
 
 # Launcher
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
@@ -46,13 +46,16 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Blur
 TARGET_SUPPORTS_BLUR := true
 
+# Clear calling
+TARGET_SUPPORTS_CLEAR_CALLING := true
+
 # Pixel features
 TARGET_ENABLE_PIXEL_FEATURES := true
 
 # Use Google telephony framework
 TARGET_USE_GOOGLE_TELEPHONY := true
 
-# TouchGestures
+# Touch Gestures
 TARGET_SUPPORTS_TOUCHGESTURES := true
 
 # Debugging
@@ -60,7 +63,7 @@ TARGET_INCLUDE_MATLOG := false
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439_4_19
-PRODUCT_NAME := lineage_Mi439_4_19
+PRODUCT_NAME := sigma_Mi439_4_19
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SDM439
