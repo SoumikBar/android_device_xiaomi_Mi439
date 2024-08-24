@@ -34,7 +34,7 @@ SIGMA_MAINTAINER="GamerBoy1234"
 SIGMA_DEVICE := "Mi439"
 
 # Build package
-WITH_GMS := true
+#WITH_GMS := true
 
 # Launcher
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
