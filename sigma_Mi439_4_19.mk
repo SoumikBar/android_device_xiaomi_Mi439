@@ -35,6 +35,8 @@ SIGMA_DEVICE := "Mi439"
 
 # Build package
 WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
 #WITH_GMS := false
 
 # Launcher
