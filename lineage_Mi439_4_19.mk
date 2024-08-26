@@ -9,9 +9,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common Euclid stuff.
+# Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/euclid/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ROM_FOLDER := lineage
 
@@ -28,15 +28,16 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
-# Sigma Variables
-SIGMA_CHIPSET="SDM439"
-SIGMA_MAINTAINER="DEV"
-SIGMA_DEVICE := "Mi439"
+#  Variables
+EVEREST_CHIPSET="SDM439"
+EVEREST_MAINTAINER="DEV"
+EVEREST_DEVICE := "Mi439"
 
 # Build package
 WITH_GMS := true
 TARGET_CORE_GMS := true
 TARGET_CORE_GMS_EXTRAS := true
+WITH_GAPPS := true
 #WITH_GMS := false
 
 # FaceUnlock
@@ -59,7 +60,7 @@ TARGET_INCLUDE_MATLOG := false
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439_4_19
-PRODUCT_NAME := euclid_Mi439_4_19
+PRODUCT_NAME := lineage_Mi439_4_19
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SDM439
